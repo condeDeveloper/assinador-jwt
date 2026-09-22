@@ -1,0 +1,12 @@
+{
+  "name": "assinador-jwt",
+  "version": "1.0.0",
+  "description": "JWT e JWS escritos do zero sobre node:crypto: HS256, RS256 e ES256, validacao de reivindicacoes e os vetores do RFC 7515. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "jwt": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test testes/*.test.js" },
+  "keywords": ["jwt", "jws", "rfc7519", "rfc7515", "assinatura"],
+  "license": "MIT"
+}
